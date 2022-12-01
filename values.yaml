@@ -1,0 +1,7 @@
+postgresql:
+  primary:
+    podSecurityContext:
+      fsGroup: null
+    containerSecurityContext:
+      runAsUser: null
+      foo: bar
