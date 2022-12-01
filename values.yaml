@@ -2,6 +2,7 @@ postgresql:
   primary:
     podSecurityContext:
       fsGroup: null
+      foo: bar
     containerSecurityContext:
       runAsUser: null
       foo: bar
